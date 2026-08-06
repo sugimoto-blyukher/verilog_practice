@@ -20,7 +20,7 @@ module Basic;
         .i_x    (r_x    ),
         .o_c    (w_c    ),
         .o_s    (w_s    )
-    )
+    );
     // --- おまじないここから ---
     initial begin
         r_a = 1'b0;
